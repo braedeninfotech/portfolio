@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="welcome">
+			<h1>BRAEDEN FRIESEN</h1>
+			<p><br><br>It's me, Braeden Friesen. <br> I'm a future web developer based in Calgary Alberta Canada.</p>
+			<p>I specialize in Full Stack Development, and I'm passionate about creating responsive and user-friendly websites, with a strong focus on design and user experience.</p>
+		</section>
+		<section id="projects">
+			<h2>Projects</h2>
+			<div class="project">
+				<img src="project1.jpg" alt="Project 1">
+				<h3>Project 1</h3>
+				<p>Description of project 1.</p>
+			</div>
+			<div class="project">
+				<img src="project2.jpg" alt="Project 2">
+				<h3>Project 2</h3>
+				<p>Description of project 2.</p>
+			</div>
+		</section>
+		<section id="skills">
+			<h2>Skills</h2>
+			<ul>
+				<li>HTML5</li>
+				<li>CSS3</li>
+				<li>JavaScript</li>
+				<li>Bootstrap</li>
+				<li>jQuery</li>
+				<li>PHP</li>
+				<li>MySQL</li>
+			</ul>
+		</section>
+		<section id="contact">
+			<h2>Contact</h2>
+			<form id="contact-form" method="post" action="contact.php">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+				<button type="submit">Send</button>
+			</form>
+		</section>
+	</main>
+	<footer>
+
+		<p>Braeden Friesen		</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>

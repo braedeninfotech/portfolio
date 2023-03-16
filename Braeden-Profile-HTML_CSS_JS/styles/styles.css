@@ -1,0 +1,16 @@
+/* Global styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: Arial, sans-serif;
+	font-size: auto; }
+
+	footer {
+		background-color: #a92222;
+		color: #b81515;
+		padding: 20px;
+		text-align: center;
+	}
